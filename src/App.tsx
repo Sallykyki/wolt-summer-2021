@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       {data.sections.map((section, idx) => (
-        <Section section={section} key={idx} />
+        <Section section={section} key={`section-${idx}`} />
       ))}
     </div>
   );

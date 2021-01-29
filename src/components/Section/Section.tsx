@@ -50,7 +50,7 @@ const Section: React.FunctionComponent<IProps> = (props) => {
         transitionDuration={500}
       >
         {section.restaurants.map((restaurant, idx) => (
-          <Restaurant restaurant={restaurant} key={idx} />
+          <Restaurant restaurant={restaurant} key={`restaurant-${idx}`} />
         ))}
       </Carousel>
     </section>
