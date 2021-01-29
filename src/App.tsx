@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        this is my assignment
         {data.sections.map((section, idx) => (
           <Section section={section} key={idx} />
         ))}

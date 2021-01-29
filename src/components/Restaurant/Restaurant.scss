@@ -1,0 +1,40 @@
+.component-Restaurant {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.125) inset;
+  border-radius: 0.25rem;
+  margin-right: 1.5rem;
+
+  &__image {
+    max-width: 100%;
+    canvas {
+      border-radius: 0.25rem 0.25rem 0 0;
+    }
+  }
+
+  &__body {
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-direction: column;
+    &__status {
+      white-space: nowrap;
+      display: inline-block;
+      margin-bottom: 1rem;
+      &--open {
+        border-radius: 0.25rem;
+        padding: 0.4rem 0.8rem;
+        background-color: #009de0;
+        color: #fff;
+      }
+      &--closed {
+        border-radius: 0.25rem;
+        padding: 0.4rem 0.8rem;
+        background-color: #c3c3c3;
+        color: #fafafa;
+      }
+    }
+  }
+}

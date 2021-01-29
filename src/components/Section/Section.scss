@@ -1,0 +1,12 @@
+.component-Section {
+  margin-bottom: 3rem;
+
+  &__carousel__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-family: "Raleway", sans-serif;
+  }
+}
