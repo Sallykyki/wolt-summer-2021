@@ -10,13 +10,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 git clone git@github.com:Sallykyki/wolt-summer-2021.git
 ```
 
-2. Install dependencies
+2. Go to cloned directory
+
+```
+cd wolt-summer-2021
+```
+
+3. Install dependencies
 
 ```
 npm install
 ```
 
-3. Start development server
+4. Start development server
 
 ```
 npm run start
