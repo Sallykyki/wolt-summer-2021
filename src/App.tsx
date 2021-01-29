@@ -1,9 +1,16 @@
 import React from "react";
+import data from "./discovery_page.json";
+import Section from "./components/Section";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">this is my assignment</header>
+      <header className="App-header">
+        this is my assignment
+        {data.sections.map((section, idx) => (
+          <Section section={section} key={idx} />
+        ))}
+      </header>
     </div>
   );
 }
